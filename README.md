@@ -14,4 +14,4 @@ Enviar los datos del formulario (mediante FormData) al servidor sin recargar la 
 Recibir la respuesta del servidor (ej: mensajes de éxito/error).
 
 4. ¿Cómo se recibe y muestra la respuesta?
-Cuando el usuario envía el formulario, fetch() realiza una petición POST al servidor (ej: process.php) con los datos del formulario. La respuesta del servidor (mensajes de éxito, errores de validación, etc.) se recibe como texto plano gracias a response.text(). Este texto se inserta directamente en el elemento HTML con ID response (un <div> en la página), mostrando así el feedback al usuario sin recargar la página.
+Cuando el usuario envía el formulario, fetch() realiza una petición POST al servidor (ej: process.php) con los datos del formulario. La respuesta del servidor (mensajes de éxito, errores de validación, etc.) se recibe como texto plano gracias a response.text(). Este texto se inserta directamente en el elemento HTML con ID response (un div en la página), mostrando así el feedback al usuario sin recargar la página.
