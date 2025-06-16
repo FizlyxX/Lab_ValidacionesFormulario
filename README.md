@@ -1,6 +1,6 @@
 # Lab_ValidacionesFormulario
 Validación de formularios con PHP y JavaScript usando Fetch API
-Punto 3
+
 1. ¿Qué validaciones se aplican?
 R: Validación de campos requeridos y validación de formato de email
 
